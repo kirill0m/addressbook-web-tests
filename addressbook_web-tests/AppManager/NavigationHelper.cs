@@ -5,7 +5,7 @@ namespace WebAddressBookTests
 {
     public class NavigationHelper : HelperBase
     {
-        private string baseURL; 
+        protected string baseURL; 
         public NavigationHelper(IWebDriver driver, string baseURL) : base(driver)
         {
             this.baseURL = baseURL;
